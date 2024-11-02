@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main.xml"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <include
+        layout="@layout/images"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="150dp"
+        />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="378dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="569dp"
+        android:gravity="center"
+        android:text="60 Seconds"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/indicator"
+        android:layout_width="375dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="500dp"
+        android:gravity="center"
+        android:text="Select a pair of Box to reveal"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name_bar"
+        android:layout_width="380dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="760dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:text="@string/name_bottom"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
