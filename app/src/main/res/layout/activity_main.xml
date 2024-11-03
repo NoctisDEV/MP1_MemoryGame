@@ -21,12 +21,13 @@
 
     <TextView
         android:id="@+id/timer"
-        android:layout_width="378dp"
-        android:layout_height="89dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="569dp"
+        android:textAlignment="center"
         android:gravity="center"
         android:text="60 Seconds"
         android:textColor="@color/black"
@@ -42,7 +43,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="500dp"
         android:gravity="center"
-        android:text="Select a pair of Box to reveal"
+        android:text="Select a pair of box to reveal"
         android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold" />
