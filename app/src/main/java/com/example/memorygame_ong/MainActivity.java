@@ -263,6 +263,16 @@ public class MainActivity extends AppCompatActivity {
         // Enable all buttons
         enableAllButtons();
 
+        b_11.setVisibility(View.VISIBLE);
+        b_12.setVisibility(View.VISIBLE);
+        b_13.setVisibility(View.VISIBLE);
+        b_21.setVisibility(View.VISIBLE);
+        b_22.setVisibility(View.VISIBLE);
+        b_23.setVisibility(View.VISIBLE);
+        b_31.setVisibility(View.VISIBLE);
+        b_32.setVisibility(View.VISIBLE);
+        b_33.setVisibility(View.VISIBLE);
+
         // Reset indicator text
         indicator.setText("Select a pair of boxes to reveal");
 
